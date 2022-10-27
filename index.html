@@ -14,34 +14,41 @@
 </head>
 
 <body>
+
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark p-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="images/logo_pulseras.png" alt="logo_pulseras"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-xxl">
+                <div class="col">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo_pulseras.png" alt="logo_pulseras">
+                    </a>
+                </div>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerflex-1" aria-controls="navbarTogglerflex-1" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class=" collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="mx-auto mx-lg-5">
-                            <a aria-current="page" href="pages/productos.html">Productos</a>
+                <div class="collapse navbar-collapse align-items-baseline" id="navbarTogglerflex-1">
+                    <ul class="navbar-nav mb-2 mb-sm-0">
+                        <li class="nav-item">
+                            <a class="nav-link pagina_activa" aria-current="page"
+                                href="pages/productos.html">Productos</a>
                         </li>
-                        <li class="mx-auto">
-                            <a aria-current="page" href="pages/quienes-somos.html">Quienes Somos</a>
-                        <li class="mx-auto mx-lg-5">
-                            <a aria-current="page" href="pages/principales-clientes.html">Principales Clientes</a>
+                        <li class="nav-item">
+                            <a class="nav-link" class="pagina_activa" href="/pages/quienes-somos.html">Quienes Somos</a>
                         </li>
-                        <li class="mx-auto mx-lg-5">
-                            <a aria-current="page" href="#ubicacion">Ubicación</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/principales-clientes.html">Principales Clientes</a>
                         </li>
-                    </ul>
-                    <ul class="navbar-nav ms-auto">
-                        <li class="mx-auto mx-lg-5">
-                            <a href="" target="blank"><a href="pages/contacto.html"><button>Contacto</button></a></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ubicacion">Ubicación</a>
                         </li>
                     </ul>
+                    <div class="col">
+                        <div class="ms-sm-auto w-50">
+                            <a href="/pages/contacto.html" class="boton_contacto">Contacto</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -52,12 +59,10 @@
             <video class="video_principal" src="videos/pulserasVip.mp4" controls
                 controlsList="nodownload noremoteplayback nofullscreen"></video>
         </div>
-
         <div class="container_fotos_principal">
             <img class="foto_principal" src="images/foto_principal_1.jpg" alt="">
             <img class="foto_principal" src="images/foto_principal_2.jpg" alt="">
         </div>
-
         <section class="container_texto_principal">
             <h1 class="text-center">Pulseras VIP - Lideres en el Noroeste</h1>
             <p class="text-center">Somos una imprenta digital. Orientada a impresion de de entradas y pulseras para
@@ -72,25 +77,24 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="row text-center">
-                    <h3 class="texto_footer">Contactanos en cualquiera de nuestras redes sociales!</h3>
+                    <h3>Contactanos en cualquiera de nuestras redes sociales!</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col"><a
                             href="https://api.whatsapp.com/send?phone=54000000000&text=Hola,%20quer%C3%ADa%20pedir%20un%20presupuesto!"
-                            target="_blank"><img class="icono_redes" src="images/whatsapp_logo.png"
-                                alt="whatsapp_logo"></a>
+                            target="_blank"><img src="images/whatsapp_logo.png" alt="whatsapp_logo"></a>
                     </div>
                     <div class="col"><a href="https://www.facebook.com/pulserasvip/" target="_blank"><img
-                                class="icono_redes" src="images/facebook_logo.png" alt="facebook_logo"></a>
+                                src="images/facebook_logo.png" alt="facebook_logo"></a>
                     </div>
                     <div class="col"><a href="https://www.instagram.com/pulserasviparg/" target="_blank"><img
-                                class="icono_redes" src="images/instagram_logo.png" alt="instagram_logo"></a>
+                                src="images/instagram_logo.png" alt="instagram_logo"></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="row text-center">
-                    <h3 class="texto_footer">Sarmiento 979, T4107 Yerba Buena, Tucuman</h3>
+                    <h3 class="">Sarmiento 979, T4107 Yerba Buena, Tucuman</h3>
                 </div>
                 <div class="row justify-content-center">
                     <iframe id="ubicacion"
@@ -103,8 +107,8 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
