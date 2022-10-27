@@ -1,0 +1,25 @@
+footer {
+  background-color: $background-color_2;
+  font-family: $fuente_footer;
+  margin-top: 1rem;
+  padding: 3rem 3rem 3rem 3rem;
+  border-top: solid #000000 1rem;
+  div {
+    h3 {
+      font-size: 3rem;
+      color: $color_base_3;
+      cursor: default;
+    }
+    a {
+      filter: grayscale(100);
+      transition: 0.5s;
+      &:hover {
+        filter: grayscale(0);
+      }
+      img {
+        width: 8rem;
+        padding-top: 3rem;
+      }
+    }
+  }
+}

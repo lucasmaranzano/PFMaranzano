@@ -1,0 +1,69 @@
+header {
+  border-bottom: solid $color_base_1 0.5rem;
+  background-color: $color_base_3;
+  font-family: $fuente_header;
+  font-size: 2rem;
+  nav {
+    div {
+      a {
+        img {
+          max-width: 15rem;
+          cursor: pointer;
+          transition-duration: 0.5s;
+          margin-left: 2rem;
+          &:hover {
+            -webkit-filter: drop-shadow(1px 1px 0 #0088a9)
+              drop-shadow(-1px -1px 2px #0088a9);
+            filter: drop-shadow(1px 1px 2px #0088a9)
+              drop-shadow(-1px -1px 2px #0088a9);
+            transform: rotate(15deg);
+            -webkit-transform: rotate(15deg);
+            -moz-transform: rotate(15deg);
+            transition-duration: 0.5s;
+          }
+        }
+      }
+      ul {
+        li {
+          padding: 0.5rem;
+          a {
+            text-decoration: none;
+            color: $color_base_2;
+            transition: 0.5s;
+            &:hover {
+              text-decoration: underline $hover_navbar solid 0.5rem;
+              letter-spacing: 0.1rem;
+              font-family: $fuente_texto_general;
+              transition: 0.5s;
+              color: $color_base_2;
+            }
+          }
+          .pagina_activa {
+            text-decoration: underline #0088a9 solid 0.5rem;
+            font-family: $fuente_texto_general;
+          }
+        }
+      }
+      .boton_contacto {
+        padding: 0.9rem 0.9rem;
+        text-decoration: none;
+        color: $color_base_2;
+        background-color: $background-color_2;
+        font-family: $fuente_texto_general;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: 0.5s;
+        position: relative;
+        right: 1rem;
+        &:hover {
+          color: $color_base_2;
+          background-color: $color_base_1;
+          text-decoration: underline solid 0.25rem;
+          letter-spacing: 0.1rem;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+}
