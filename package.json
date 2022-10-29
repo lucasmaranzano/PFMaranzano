@@ -1,0 +1,28 @@
+{
+  "name": "preentrega3maranzano",
+  "version": "1.0.0",
+  "description": "PreEntrega3Maranzano",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compilar": "node-sass --include-path scss scss/main.scss style.css",
+    "autocompilar": "nodemon -e scss -x \"npm run compilar\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasmaranzano/PreEntrega3Maranzano.git"
+  },
+  "keywords": [
+    "PreEntrega3Maranzano"
+  ],
+  "author": "Lucas Maranzano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasmaranzano/PreEntrega3Maranzano/issues"
+  },
+  "homepage": "https://github.com/lucasmaranzano/PreEntrega3Maranzano#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
