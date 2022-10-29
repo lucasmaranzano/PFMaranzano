@@ -3,6 +3,9 @@ header {
   background-color: $color_base_3;
   font-family: $fuente_header;
   font-size: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
   nav {
     div {
       a {
@@ -37,10 +40,13 @@ header {
               transition: 0.5s;
               color: $color_base_2;
             }
-          }
-          .pagina_activa {
-            text-decoration: underline #0088a9 solid 0.5rem;
-            font-family: $fuente_texto_general;
+            &.pagina_activa {
+              text-decoration: underline #0088a9 solid 0.5rem;
+              font-family: $fuente_texto_general;
+              &:hover {
+                letter-spacing: 0;
+              }
+            }
           }
         }
       }
