@@ -1,5 +1,4 @@
 node_modules
-*.json
 .sass-cache/
 *.css.map
 *.sass.map
