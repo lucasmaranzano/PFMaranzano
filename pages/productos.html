@@ -8,93 +8,89 @@
     <title>Pulseras Vip</title>
     <link rel="icon" type="image/x-icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../style.css">
-    <link href="http://fonts.cdnfonts.com/css/mister-twisted" rel="stylesheet">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 
 <body>
+
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark p-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img src="../images/logo_pulseras.png" alt="logo_pulseras"
-                        class="logo_pulseras"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-xxl">
+                <div class="col">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../images/logo_pulseras.png" alt="logo_pulseras">
+                    </a>
+                </div>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbargeneral" aria-controls="navbargeneral" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <div class=" collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="mx-auto mx-lg-5">
-                            <a class="pagina_activa" aria-current="page" href="../pages/productos.html">Productos</a>
+                <div class="collapse navbar-collapse align-items-baseline" id="navbargeneral">
+                    <ul class="navbar-nav mb-2 mb-sm-0">
+                        <li class="nav-item">
+                            <a class="pagina_activa" href="productos.html">Productos</a>
                         </li>
-                        <li class="mx-auto">
-                            <a aria-current="page" href="../pages/quienes-somos.html">Quienes Somos</a>
-                        <li class="mx-auto mx-lg-5">
-                            <a aria-current="page" href="../pages/principales-clientes.html">Principales Clientes</a>
+                        <li class="nav-item">
+                            <a href="quienes-somos.html">Quienes Somos</a>
                         </li>
-                        <li class="mx-auto mx-lg-5">
-                            <a aria-current="page" href="#ubicacion">Ubicación</a>
+                        <li class="nav-item">
+                            <a href="principales-clientes.html">Principales Clientes</a>
                         </li>
-                    </ul>
-                    <ul class="navbar-nav ms-auto">
-                        <li class="mx-auto mx-lg-5">
-                            <a href="" target="blank"><a href="../pages/contacto.html"><button
-                                        class="boton_contacto">Contacto</button></a></a>
+                        <li class="nav-item">
+                            <a href="#ubicacion">Ubicación</a>
                         </li>
                     </ul>
+                    <div class="col">
+                        <div class="ms-sm-auto w-50">
+                            <a href="contacto.html" class="boton_contacto">Contacto</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
 
     <main>
-        <div class="container">
-            <h1 class="text-center h1_productos">Nuestros Productos</h1>
-            <div class="row row_tarjetas">
-                <div class="col-12 col-lg-6 py-5">
-                    <div class="card">
-                        <img class="card-img-top" src="../images/card1.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="fs-1 text-center titulo_card">Entradas para acceso a evento</h5>
-                            <p class="fs-3 texto_card">Controla el acceso a tu evento con nuestras entradas, ponele
-                                marca y deseñalas a tu manera, contactanos y te hacemos presupuesto en el momento.</p>
-                        </div>
+        <div class="container-fluid">
+            <div class="contenedor_tarjetas">
+                <div class="h1_productos text-center">
+                    <h1>Nuestros Productos</h1>
+                </div>
+                <div class="tarjeta1 text-center">
+                    <div><img class="imagen_tarjeta" src="/images/card1.png" alt=""></div>
+                    <div class="descripcion_tarjeta">
+                        <h3>Entradas para acceso a evento</h3>
+                        <h4>Te presentamos el ticket con mayor seguridad y mejor estetica del mercado. Ofreciendo un
+                            valor agregado a cada evento con la fiabilidad que el mismo requiere. Facilitando el control
+                            de acceso e inhibiendo la posibilidad de ser falsificados.</h4>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 py-5">
-                    <div class="card">
-                        <img class="card-img-top" src="../images/card2.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="fs-1 text-center titulo_card">Pegatinas personalizadas</h5>
-                            <p class="fs-3 texto_card">Pegatinas para tu empresa y tu hogar, mandanos tu diseño y lo
-                                hacemos
-                                realidad.</p>
-                        </div>
+                <div class="tarjeta2 text-center">
+                    <div><img class="imagen_tarjeta" src="/images/card2.png" alt=""></div>
+                    <div class="descripcion_tarjeta">
+                        <h3>Pegatinas personalizadas</h3>
+                        <h4>Pegatinas para tu empresa y tu hogar, mandanos tu diseño y lo hacemos realidad.</h4>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 py-5">
-                    <div class="card">
-                        <img class="card-img-top" src="../images/card3.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="fs-1 text-center titulo_card">Pulseras para eventos</h5>
-                            <p class="fs-3 texto_card">Pulseras de distintos tamaños y gran variedad de colores para
-                                controlar
-                                junto con las entradas el acceso a tu evento.</p>
-                        </div>
+                <div class="tarjeta3 text-center">
+                    <div><img class="imagen_tarjeta" src="/images/card3.png" alt=""></div>
+                    <div class="descripcion_tarjeta">
+                        <h3>Pulseras Personalizadas</h3>
+                        <h4>Las pulseras Tyvek de papel sólido de un solo uso, con un número de serie pre-impreso y con
+                            un cierre inviolable que impide la transferencia de la pulsera de una persona a otra. Son
+                            muy populares entre los organizadores de festivales, que saben apreciar su gran valor,
+                            solidez y amplias posibilidades de personalización.</h4>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 py-5">
-                    <div class="card">
-                        <img class="card-img-top" src="../images/card4.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="fs-1 text-center titulo_card">Vinilos</h5>
-                            <p class="fs-3 texto_card">Vinilos de distintas medidas, personalizalo a tu manera, ideal
-                                para carteles exteriores / stands.</p>
-                        </div>
+                <div class="tarjeta4 text-center">
+                    <div><img class="imagen_tarjeta" src="/images/card4.png" alt=""></div>
+                    <div class="descripcion_tarjeta">
+                        <h3>Banners</h3>
+                        <h4>Ideal para eventos, conferencias y locales comerciales.
+                            Práctico, fácil para trasladar, armar y desarmar.</h4>
                     </div>
                 </div>
             </div>
@@ -111,16 +107,16 @@
                     <div class="row row-cols-3">
                         <div class="col">
                             <a href="https://api.whatsapp.com/send?phone=54000000000&text=Hola,%20quer%C3%ADa%20pedir%20un%20presupuesto!"
-                                target="_blank"><img class="icono_redes" src="../images/whatsapp_logo.png"
+                                target="_blank"><img class="icono_redes" src="../../images/whatsapp_logo.png"
                                     alt="whatsapp_logo"></a>
                         </div>
                         <div class="col">
                             <a href="https://www.facebook.com/pulserasvip/" target="_blank"><img class="icono_redes"
-                                    src="../images/facebook_logo.png" alt="facebook_logo"></a>
+                                    src="../../images/facebook_logo.png" alt="facebook_logo"></a>
                         </div>
                         <div class="col">
                             <a href="https://www.instagram.com/pulserasviparg/" target="_blank"><img class="icono_redes"
-                                    src="../images/instagram_logo.png" alt="instagram_logo"></a>
+                                    src="../../images/instagram_logo.png" alt="instagram_logo"></a>
                         </div>
                     </div>
                 </div>

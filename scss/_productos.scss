@@ -1,0 +1,55 @@
+.h1_productos h1 {
+    font-family: $fuente_texto_general;
+    font-size: 5rem;
+    text-decoration: underline solid $color_base_4;
+  }
+
+.contenedor_tarjetas {
+  @include prefix_grid(1fr 1fr 1fr 1fr, 0.2fr 1.2fr 1.2fr 1.2fr 1.2fr);
+  .h1_productos {
+    @include prefix_grid_item(1, 1, 4);
+  }
+  .tarjeta1 {
+    @include prefix_grid_item(1, 2, 2, 3);
+  }
+  .tarjeta2 {
+    @include prefix_grid_item(3, 2, 4, 3);
+  }
+  .tarjeta3 {
+    @include prefix_grid_item(1, 4, 2, 5);
+  }
+  .tarjeta4 {
+    @include prefix_grid_item(3, 4, 4, 5);
+  }
+}
+
+.imagen_tarjeta {
+  margin: 5rem 5rem 0.5rem 5rem;
+  width: 80%;
+  transition: 0.2s;
+  border-radius: 20px;
+  border: $color-base-3 solid 5px;
+  &:hover {
+    transform: scale(1.02);
+    transition: 0.5s;
+  }
+}
+
+.descripcion_tarjeta {
+  display: grid;
+  justify-items: center;
+  h3 {
+    padding-top: 1rem;
+    font-family: $fuente_texto_general;
+    width: 75%;    
+    color: $color_base_1;
+    font-size: 3rem;
+  }
+  h4 {
+    @extend h3;
+    color: $color_base_3;
+    font-size: 2rem;
+    text-align: justify;
+  }
+}
+
