@@ -1,0 +1,19 @@
+@mixin prefix_grid($columns, $rows) {
+  display: grid;
+  grid-template-columns: $columns;
+  grid-template-rows: $rows;
+}
+
+@mixin prefix_grid_item($column, $row, $column_span: 1, $row_span: 1) {
+  @if $column_span != 1 {
+    grid-column: $column / span $column_span;
+  } @else {
+    grid-column: $column;
+  }
+  @if $row_span != 1 {
+    grid-row: $row / span $row_span;
+  } @else {
+    grid-row: $row;
+  }
+  padding: 2rem;
+}
