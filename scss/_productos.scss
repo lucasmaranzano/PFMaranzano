@@ -38,14 +38,14 @@
 .descripcion_tarjeta {
   display: grid;
   justify-items: center;
-  h3 {
+  h2 {
     padding-top: 1rem;
     font-family: $fuente_texto_general;
     width: 75%;    
     color: $color_base_1;
     font-size: 3rem;
   }
-  h4 {
+  h3 {
     @extend h3;
     color: $color_base_3;
     font-size: 2rem;
