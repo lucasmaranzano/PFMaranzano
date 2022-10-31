@@ -1,0 +1,14 @@
+.texto_quienes_somos {
+    font-size: 1.7vw;
+    font-family: $fuente_texto_general;
+    text-decoration: underline solid 5px #0088a9;
+}
+.parrafo_quienes_somos {
+    font-size: 1.1vw;
+    font-family: $fuente_texto_general;
+    text-align: justify;
+}
+.imagen_quienes_somos {
+	border-radius: 20px;
+	box-shadow: 2px 2px 4px 0px #00000033;
+}
