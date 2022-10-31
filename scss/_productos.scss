@@ -46,7 +46,7 @@
     font-size: 3rem;
   }
   h3 {
-    @extend h3;
+    @extend h2;
     color: $color_base_3;
     font-size: 2rem;
     text-align: justify;
