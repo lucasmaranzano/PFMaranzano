@@ -1,0 +1,328 @@
+@import url("http://fonts.cdnfonts.com/css/mister-twisted");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+header {
+  border-bottom: solid white 0.5rem;
+  background-color: #000000;
+  font-family: "Mister Twisted 3D", sans-serif;
+  font-size: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 2; }
+  header nav div a img {
+    max-width: 15rem;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    margin-left: 2rem; }
+    header nav div a img:hover {
+      -webkit-filter: drop-shadow(1px 1px 0 #0088a9) drop-shadow(-1px -1px 2px #0088a9);
+      filter: drop-shadow(1px 1px 2px #0088a9) drop-shadow(-1px -1px 2px #0088a9);
+      transform: rotate(15deg);
+      -webkit-transform: rotate(15deg);
+      -moz-transform: rotate(15deg);
+      transition-duration: 0.5s; }
+  header nav div ul li {
+    padding: 0.5rem; }
+    header nav div ul li a {
+      text-decoration: none;
+      color: white;
+      transition: 0.5s; }
+      header nav div ul li a:hover {
+        text-decoration: underline #e40b7f solid 0.5rem;
+        letter-spacing: 0.1rem;
+        font-family: "Mister Twisted", sans-serif;
+        transition: 0.5s;
+        color: white; }
+      header nav div ul li a.pagina_activa {
+        text-decoration: underline #0088a9 solid 0.5rem;
+        font-family: "Mister Twisted", sans-serif; }
+        header nav div ul li a.pagina_activa:hover {
+          letter-spacing: 0; }
+  header nav div .boton_contacto {
+    padding: 0.9rem 0.9rem;
+    text-decoration: none;
+    color: white;
+    background-color: #0088a9;
+    font-family: "Mister Twisted", sans-serif;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    right: 1rem; }
+    header nav div .boton_contacto:hover {
+      color: white;
+      background-color: #e40b7f;
+      text-decoration: underline solid 0.25rem;
+      letter-spacing: 0.1rem;
+      transition: 0.5s; }
+
+footer {
+  background-color: #0088a9;
+  font-family: "Mister Twisted", sans-serif;
+  margin-top: 1rem;
+  padding: 3rem 3rem 3rem 3rem;
+  border-top: solid #000000 1rem; }
+  footer div h3 {
+    font-size: 3rem;
+    color: #000000;
+    cursor: default; }
+  footer div a {
+    filter: grayscale(100);
+    transition: 0.5s; }
+    footer div a:hover {
+      filter: grayscale(0); }
+    footer div a img {
+      width: 8rem;
+      padding-top: 3rem; }
+
+.container_video {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+  border-bottom: solid #e40b7f; }
+
+.video_principal {
+  max-width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-top: 2rem;
+  border-bottom: 2rem;
+  border: solid 1rem #000000;
+  border-radius: 0.5rem;
+  transform: scale(0.8);
+  transition-duration: 0.5s; }
+  .video_principal:hover {
+    transform: scale(0.95);
+    transition-duration: 0.5s;
+    border: solid 1rem #ffffff; }
+
+.container_texto_principal {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  cursor: default;
+  font-family: "Mister Twisted", sans-serif; }
+  .container_texto_principal h1 {
+    padding: 2rem;
+    margin-bottom: 5rem;
+    font-size: 5rem;
+    background-color: #e40b7f;
+    color: white;
+    letter-spacing: 10px;
+    text-shadow: 5px 5px 10px #000000;
+    width: 100%; }
+  .container_texto_principal p {
+    padding-top: 10rem;
+    padding-bottom: 12rem;
+    width: 75%;
+    font-size: 3.5rem;
+    text-align: justify; }
+
+.container_fotos_principal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 10rem;
+  margin-bottom: 15rem; }
+
+.foto_principal {
+  width: 40%;
+  margin: 2rem;
+  border-radius: 1rem;
+  border: solid 0.2rem #000000;
+  transition: 0.5s; }
+
+.h1_productos h1 {
+  font-family: "Mister Twisted", sans-serif;
+  font-size: 5rem;
+  text-decoration: underline solid #0088a9; }
+
+.contenedor_tarjetas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1.2fr 1.2fr 1.2fr 1.2fr; }
+  .contenedor_tarjetas .h1_productos {
+    grid-column: 1/span 4;
+    grid-row: 1;
+    padding: 2rem; }
+  .contenedor_tarjetas .tarjeta1 {
+    grid-column: 1/span 2;
+    grid-row: 2/span 3;
+    padding: 2rem; }
+  .contenedor_tarjetas .tarjeta2 {
+    grid-column: 3/span 4;
+    grid-row: 2/span 3;
+    padding: 2rem; }
+  .contenedor_tarjetas .tarjeta3 {
+    grid-column: 1/span 2;
+    grid-row: 4/span 5;
+    padding: 2rem; }
+  .contenedor_tarjetas .tarjeta4 {
+    grid-column: 3/span 4;
+    grid-row: 4/span 5;
+    padding: 2rem; }
+
+.imagen_tarjeta {
+  margin: 5rem 5rem 0.5rem 5rem;
+  width: 80%;
+  transition: 0.2s;
+  border-radius: 20px;
+  border: #000000 solid 5px; }
+  .imagen_tarjeta:hover {
+    transform: scale(1.02);
+    transition: 0.5s; }
+
+.descripcion_tarjeta {
+  display: grid;
+  justify-items: center; }
+  .descripcion_tarjeta h2, .descripcion_tarjeta h3 {
+    padding-top: 1rem;
+    font-family: "Mister Twisted", sans-serif;
+    width: 75%;
+    color: #e40b7f;
+    font-size: 3rem; }
+  .descripcion_tarjeta h3 {
+    color: #000000;
+    font-size: 2rem;
+    text-align: justify; }
+
+.texto_quienes_somos {
+  font-size: 1.7vw;
+  font-family: "Mister Twisted", sans-serif;
+  text-decoration: underline solid 5px #0088a9; }
+
+.parrafo_quienes_somos {
+  font-size: 1.1vw;
+  font-family: "Mister Twisted", sans-serif;
+  text-align: justify; }
+
+.imagen_quienes_somos {
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px 0px #00000033; }
+
+.principales_clientes {
+  margin: 5rem 0 5rem 0; }
+  .principales_clientes > h1 {
+    font-size: 2.5vw;
+    padding: 5rem 0 5rem 0;
+    font-family: "Mister Twisted", sans-serif; }
+
+span.carousel-control-next-icon {
+  height: 4vw;
+  width: 4vw;
+  background-color: #0088a9;
+  border-radius: 1vw; }
+
+span.carousel-control-prev-icon {
+  height: 4vw;
+  width: 4vw;
+  background-color: #0088a9;
+  border-radius: 1vw; }
+
+.titulo_texto_carousel {
+  font-size: 2.2vw;
+  color: #000000;
+  background-color: #ffbb0080;
+  border-radius: 2rem 2rem 2rem 2rem;
+  -webkit-border-radius: 2rem 2rem 2rem 2rem;
+  -moz-border-radius: 2rem 2rem 2rem 2rem;
+  font-family: "Mister Twisted", sans-serif; }
+
+.texto_carousel {
+  font-size: 1.9vw;
+  color: #1900fd;
+  text-shadow: 4px 4px 5px #ffffff;
+  background-color: #6d6d6d80;
+  border-radius: 2rem 2rem 2rem 2rem;
+  -webkit-border-radius: 2rem 2rem 2rem 2rem;
+  -moz-border-radius: 2rem 2rem 2rem 2rem;
+  font-family: "Mister Twisted", sans-serif;
+  transform: translate(0px, 30px);
+  -webkit-transform: translate(0px, 30px);
+  -moz-transform: translate(0px, 30px); }
+
+#carousel_principales-clientes {
+  background-color: #6d6d6d80;
+  padding: 5vw 0 5vw 0;
+  border-radius: 48px 48px 48px 48px;
+  -webkit-border-radius: 48px 48px 48px 48px;
+  -moz-border-radius: 48px 48px 48px 48px; }
+
+div.pb-5 {
+  margin-bottom: 15vw; }
+
+div.carousel-indicators {
+  z-index: 0; }
+
+.container-formulario-contacto {
+  padding: 100px 0; }
+
+.formulario {
+  padding: 35px 45px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  font-family: "Mister Twisted", sans-serif; }
+  .formulario textarea {
+    resize: none; }
+  .formulario .form-input {
+    background-color: #f0f4f5;
+    height: 45px;
+    padding-left: 16px;
+    font-size: 2rem; }
+  .formulario .form-text-area {
+    background-color: #f0f4f5;
+    height: auto;
+    padding-left: 16px;
+    font-size: 2rem; }
+  .formulario .form-control::placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+    opacity: 1; }
+  .formulario .form-control:-ms-input-placeholder {
+    color: #aeb4b9;
+    font-weight: 500; }
+  .formulario .form-control::-ms-input-placeholder {
+    color: #aeb4b9;
+    font-weight: 500; }
+  .formulario .form-control:focus {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #0088a9; }
+  .formulario .titulo_formulario {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500; }
+  .formulario .descripcion_formulario {
+    color: #aeb4b9;
+    font-size: 2rem;
+    text-align: center; }
+  .formulario .container_boton_formulario {
+    text-align: center; }
+    .formulario .container_boton_formulario input {
+      border: none;
+      border-radius: 10px;
+      background-color: #0088a9;
+      color: white;
+      letter-spacing: 5px;
+      padding: 10px 60px;
+      font-weight: 500;
+      font-size: 1.5rem; }
+
+.form-text-area {
+  background-color: #f0f4f5;
+  height: 45px;
+  padding-left: 16px;
+  font-size: 2rem; }
