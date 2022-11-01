@@ -280,24 +280,24 @@ div.carousel-indicators {
   .formulario textarea {
     resize: none; }
   .formulario .form-input {
-    background-color: #f0f4f5;
+    background-color: antiquewhite;
     height: 45px;
     padding-left: 16px;
     font-size: 2rem; }
   .formulario .form-text-area {
-    background-color: #f0f4f5;
+    background-color: #06171b;
     height: auto;
     padding-left: 16px;
     font-size: 2rem; }
   .formulario .form-control::placeholder {
-    color: #aeb4b9;
+    color: #b6b9ae;
     font-weight: 500;
     opacity: 1; }
   .formulario .form-control:-ms-input-placeholder {
-    color: #aeb4b9;
+    color: #b6b9ae;
     font-weight: 500; }
   .formulario .form-control::-ms-input-placeholder {
-    color: #aeb4b9;
+    color: #b6b9ae;
     font-weight: 500; }
   .formulario .form-control:focus {
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #0088a9; }
@@ -306,7 +306,7 @@ div.carousel-indicators {
     font-size: 3rem;
     font-weight: 500; }
   .formulario .descripcion_formulario {
-    color: #aeb4b9;
+    color: #b6b9ae;
     font-size: 2rem;
     text-align: center; }
   .formulario .container_boton_formulario {
@@ -314,7 +314,7 @@ div.carousel-indicators {
     .formulario .container_boton_formulario input {
       border: none;
       border-radius: 10px;
-      background-color: #0088a9;
+      background-color: #1db8df;
       color: white;
       letter-spacing: 5px;
       padding: 10px 60px;
@@ -322,7 +322,7 @@ div.carousel-indicators {
       font-size: 1.5rem; }
 
 .form-text-area {
-  background-color: #f0f4f5;
+  background-color: #06171b;
   height: 45px;
   padding-left: 16px;
   font-size: 2rem; }
