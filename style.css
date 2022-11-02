@@ -524,4 +524,8 @@ div.container.contacto {
   div.pb-5 {
     margin-bottom: 15vw;
     min-width: 100%; }
-  /* FIN PRINCIPALES-CLIENTES */ }
+  /* FIN PRINCIPALES-CLIENTES */
+  /* INICIO CONTACTO */
+  div.container.contacto {
+    width: 85%; }
+  /* FIN CONTACTO */ }
