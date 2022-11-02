@@ -227,6 +227,13 @@
       padding: 3rem 0 3rem 0;
     }
   }
+
+  .carousel-item {
+    img {
+      max-width: 80%;
+    }
+  }
+
   span.carousel-control-next-icon {
     height: 3rem;
     width: 3rem;
