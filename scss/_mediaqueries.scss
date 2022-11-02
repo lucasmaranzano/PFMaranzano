@@ -1,0 +1,268 @@
+@media screen and (max-width: 992px) {
+  /* INICIO NAVBAR */
+  header {
+    nav {
+      div {
+        a.navbar-brand {
+          img {
+            max-width: 10rem;
+            cursor: pointer;
+            transition-duration: 0s;
+            margin-left: 2rem;
+            &:hover {
+              -webkit-filter: none;
+              filter: none;
+              transform: none;
+              -webkit-transform: none;
+              -moz-transform: none;
+              transition-duration: none;
+            }
+          }
+        }
+        ul {
+          li.nav-item {
+            text-align: center;
+            a {
+              font-size: 2.2rem;
+              padding-bottom: 1rem;
+              transition: 0s;
+              font-family: $fuente_header;
+              &:hover {
+                text-decoration: none;
+                letter-spacing: 0rem;
+                color: $color_base_2;
+              }
+              &.pagina_activa {
+                text-decoration: underline #000000 solid 0.5rem;
+                font-family: $fuente_header;
+                &:hover {
+                  letter-spacing: 0;
+                }
+              }
+            }
+          }
+        }
+        div.ms-sm-auto {
+          width: 100%;
+          text-align: center;
+          .boton_contacto {
+            font-size: 2.2rem;
+            text-align: center;
+            text-decoration: none;
+            color: $color_base_2;
+            background-color: $color_base_1;
+            right: 0rem;
+            &:hover {
+              color: $color_base_2;
+              text-decoration: none;
+              letter-spacing: 0rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .navbar-toggler-icon {
+    font-size: 2.5rem;
+  }
+  /* FIN NAVBAR */
+
+  /* INICIO FOOTER */
+
+  footer {
+    margin-top: 10rem;
+    padding: 3rem 3rem 3rem 3rem;
+    border-top: solid #000000 1rem;
+    div {
+      h3 {
+        padding: 2rem 0rem 2rem 0rem;
+        font-size: 2.5rem;
+        color: $color_base_2;
+        cursor: default;
+      }
+      a {
+        filter: grayscale(0);
+        transition: 0.5s;
+        img {
+          width: 6rem;
+          padding-top: 0rem;
+        }
+      }
+    }
+  }
+
+  /* FIN FOOTER */
+
+  /* INICIO INDEX.HTML */
+
+  .video_principal {
+    max-width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem 0 1rem;
+    border: none;
+    border-radius: 50px;
+    transform: scale(1);
+    transition-duration: 0s;
+    &:hover {
+      transform: none;
+      transition-duration: 0s;
+      border: none;
+    }
+  }
+  .container_texto_principal {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    cursor: default;
+    font-family: $fuente_texto_general;
+    h1 {
+      padding: 2rem;
+      margin-bottom: 5rem;
+      font-size: 2rem;
+      background-color: $color_base_1;
+      color: $color_base_2;
+      letter-spacing: 10px;
+      text-shadow: 5px 5px 10px #000000;
+      width: 100%;
+    }
+    p {
+      padding-top: 5rem;
+      line-height: 5rem;
+      padding-bottom: 12rem;
+      width: 75%;
+      font-size: 1.8rem;
+      text-align: justify;
+    }
+  }
+  .container_fotos_principal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 10rem;
+    margin-bottom: 15rem;
+  }
+  .foto_principal {
+    width: 70%;
+    display: block;
+    margin: 2rem;
+    border-radius: 1rem;
+    border: solid 0.2rem #000000;
+    transition: 0.5s;
+  }
+  /* FIN INDEX.HTML */
+
+  /* INICIO PRODUCTOS */
+
+  .h1_productos h1 {
+    font-family: $fuente_texto_general;
+    font-size: 3.5rem;
+    text-decoration: underline solid $color_base_4;
+  }
+
+  .contenedor_tarjetas {
+    @include caja_grid(1fr, 0.2fr 1.2fr 1.2fr 1.2fr 1.2fr);
+    .h1_productos {
+      @include item_grid(1, 1);
+      margin-top: 3rem;
+    }
+    .tarjeta1 {
+      @include item_grid(1, 2);
+    }
+    .tarjeta2 {
+      @include item_grid(1, 3);
+    }
+    .tarjeta3 {
+      @include item_grid(1, 4);
+    }
+    .tarjeta4 {
+      @include item_grid(1, 5);
+    }
+  }
+
+  .imagen_tarjeta {
+    margin: 2rem;
+    transition: 0s;
+    &:hover {
+      transform: none;
+      transition: 0s;
+    }
+  }
+
+  .descripcion_tarjeta {
+    h2 {
+      padding-top: 1rem;
+    }
+    h3 {
+      padding-top: 0.8rem;
+    }
+  }
+
+  /* FIN PRODUCTOS */
+
+  /* INICIO QUIENES-SOMOS */
+
+  .texto_quienes_somos {
+    font-size: 3rem;
+  }
+  .parrafo_quienes_somos {
+    font-size: 1.7rem;
+  }
+  /* FIN QUIENES-SOMOS */
+
+  /* INICIO PRINCIPALES-CLIENTES */
+
+  .principales_clientes {
+    margin: 3rem 0 3rem 0;
+    > h1 {
+      font-size: 3rem;
+      padding: 3rem 0 3rem 0;
+    }
+  }
+  span.carousel-control-next-icon {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 1rem;
+  }
+  span.carousel-control-prev-icon {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 1rem;
+  }
+
+  .titulo_texto_carousel {
+    position: relative;
+    top: 2rem;
+    font-size: 3rem;
+  }
+
+  div.pb-5 {
+    margin-bottom: 25vw;
+  }
+
+  div.carousel-indicators {
+    z-index: 0;
+  }
+
+  div.pb-5 {
+    margin-bottom: 15vw;
+    min-width: 100%;
+  }
+
+  /* FIN PRINCIPALES-CLIENTES */
+
+  /* INICIO CONTACTO */
+
+  div.container.contacto {
+    width: 85%;
+  }
+  /* FIN CONTACTO */
+}
