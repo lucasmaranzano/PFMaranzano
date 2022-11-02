@@ -52,23 +52,26 @@ header {
           }
         }
       }
-      .boton_contacto {
-        padding: 0.9rem 0.9rem;
-        text-decoration: none;
-        color: $color_base_2;
-        background-color: $color_base_4;
-        font-family: $fuente_header;
-        border: none;
-        border-radius: 50px;
-        cursor: pointer;
-        transition: 0.5s;
-        position: relative;
-        right: 1rem;
-        &:hover {
+      div.ms-sm-auto {
+        width: 50%;
+        .boton_contacto {
+          padding: 0.9rem 0.9rem;
+          text-decoration: none;
           color: $color_base_2;
-          text-decoration: underline solid 0.25rem;
-          letter-spacing: 0.1rem;
+          background-color: $color_base_4;
+          font-family: $fuente_header;
+          border: none;
+          border-radius: 50px;
+          cursor: pointer;
           transition: 0.5s;
+          position: relative;
+          right: 1rem;
+          &:hover {
+            color: $color_base_2;
+            text-decoration: underline solid 0.25rem;
+            letter-spacing: 0.1rem;
+            transition: 0.5s;
+          }
         }
       }
     }
