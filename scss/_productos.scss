@@ -5,21 +5,21 @@
   }
 
 .contenedor_tarjetas {
-  @include prefix_grid(1fr 1fr 1fr 1fr, 0.2fr 1.2fr 1.2fr 1.2fr 1.2fr);
+  @include caja_grid(1fr 1fr 1fr 1fr, 0.2fr 1.2fr 1.2fr 1.2fr 1.2fr);
   .h1_productos {
-    @include prefix_grid_item(1, 1, 4);
+    @include item_grid(1, 1, 4);
   }
   .tarjeta1 {
-    @include prefix_grid_item(1, 2, 2, 3);
+    @include item_grid(1, 2, 2, 3);
   }
   .tarjeta2 {
-    @include prefix_grid_item(3, 2, 4, 3);
+    @include item_grid(3, 2, 4, 3);
   }
   .tarjeta3 {
-    @include prefix_grid_item(1, 4, 2, 5);
+    @include item_grid(1, 4, 2, 5);
   }
   .tarjeta4 {
-    @include prefix_grid_item(3, 4, 4, 5);
+    @include item_grid(3, 4, 4, 5);
   }
 }
 
@@ -52,4 +52,3 @@
     text-align: justify;
   }
 }
-
