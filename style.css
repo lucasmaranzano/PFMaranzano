@@ -269,7 +269,8 @@ span.carousel-control-prev-icon {
   -moz-border-radius: 48px 48px 48px 48px; }
 
 div.pb-5 {
-  margin-bottom: 15vw; }
+  margin-bottom: 15vw;
+  width: 75%; }
 
 div.carousel-indicators {
   z-index: 0; }
@@ -454,7 +455,7 @@ div.container.contacto {
   /* INICIO PRODUCTOS */
   .h1_productos h1 {
     font-family: "Mister Twisted", sans-serif;
-    font-size: 5rem;
+    font-size: 3.5rem;
     text-decoration: underline solid #0088a9; }
   .contenedor_tarjetas {
     display: grid;
@@ -494,14 +495,33 @@ div.container.contacto {
   /* FIN PRODUCTOS */
   /* INICIO QUIENES-SOMOS */
   .texto_quienes_somos {
-    font-size: 3rem;
-    font-family: "Mister Twisted", sans-serif;
-    text-decoration: underline solid 5px #0088a9; }
+    font-size: 3rem; }
   .parrafo_quienes_somos {
-    font-size: 1.5rem;
-    font-family: "Mister Twisted", sans-serif;
-    text-align: justify; }
-  .imagen_quienes_somos {
-    border-radius: 20px;
-    box-shadow: 2px 2px 4px 0px #00000033; }
-  /* FIN QUIENES-SOMOS */ }
+    font-size: 1.7rem; }
+  /* FIN QUIENES-SOMOS */
+  /* INICIO PRINCIPALES-CLIENTES */
+  .principales_clientes {
+    margin: 3rem 0 3rem 0; }
+    .principales_clientes > h1 {
+      font-size: 3rem;
+      padding: 3rem 0 3rem 0; }
+  span.carousel-control-next-icon {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 1rem; }
+  span.carousel-control-prev-icon {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 1rem; }
+  .titulo_texto_carousel {
+    position: relative;
+    top: 2rem;
+    font-size: 3rem; }
+  div.pb-5 {
+    margin-bottom: 25vw; }
+  div.carousel-indicators {
+    z-index: 0; }
+  div.pb-5 {
+    margin-bottom: 15vw;
+    min-width: 100%; }
+  /* FIN PRINCIPALES-CLIENTES */ }
