@@ -74,10 +74,6 @@ footer {
   margin-top: 1rem;
   padding: 3rem 3rem 3rem 3rem;
   border-top: solid #000000 1rem; }
-  footer div h3 {
-    font-size: 2.5rem;
-    color: white;
-    cursor: default; }
   footer div a {
     filter: grayscale(100);
     transition: 0.5s; }
@@ -86,6 +82,10 @@ footer {
     footer div a img {
       width: 8rem;
       padding-top: 3rem; }
+    footer div a.texto_footer {
+      font-size: 2.5rem;
+      color: white;
+      cursor: default; }
 
 .container_video {
   display: flex;
@@ -223,7 +223,7 @@ footer {
 .principales_clientes {
   margin: 5rem 0 5rem 0; }
   .principales_clientes > h1 {
-    font-size: 2.5vw;
+    font-size: 2.3vw;
     padding: 5rem 0 5rem 0;
     font-family: "Mister Twisted", sans-serif; }
 
@@ -240,7 +240,7 @@ span.carousel-control-prev-icon {
   border-radius: 1vw; }
 
 .titulo_texto_carousel {
-  font-size: 2.2vw;
+  font-size: 2vw;
   color: #000000;
   background-color: #ffbb0080;
   border-radius: 2rem 2rem 2rem 2rem;
@@ -249,7 +249,7 @@ span.carousel-control-prev-icon {
   font-family: "Mister Twisted", sans-serif; }
 
 .texto_carousel {
-  font-size: 1.9vw;
+  font-size: 1.5vw;
   color: #1900fd;
   text-shadow: 4px 4px 5px #ffffff;
   background-color: #6d6d6d80;
