@@ -195,13 +195,13 @@ footer {
 .descripcion_tarjeta {
   display: grid;
   justify-items: center; }
-  .descripcion_tarjeta h2, .descripcion_tarjeta h3 {
+  .descripcion_tarjeta h2, .descripcion_tarjeta p {
     padding-top: 1rem;
     font-family: "Mister Twisted", sans-serif;
     width: 75%;
     color: #e40b7f;
     font-size: 3rem; }
-  .descripcion_tarjeta h3 {
+  .descripcion_tarjeta p {
     color: #000000;
     font-size: 2rem;
     text-align: justify; }
@@ -487,9 +487,9 @@ div.container.contacto {
     .imagen_tarjeta:hover {
       transform: none;
       transition: 0s; }
-  .descripcion_tarjeta h2, .descripcion_tarjeta h3 {
+  .descripcion_tarjeta h2, .descripcion_tarjeta p {
     padding-top: 1rem; }
-  .descripcion_tarjeta h3 {
+  .descripcion_tarjeta p {
     padding-top: 0.8rem; }
   /* FIN PRODUCTOS */
   /* INICIO QUIENES-SOMOS */
