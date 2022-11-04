@@ -410,7 +410,7 @@ div.container.contacto {
       transition-duration: 0s;
       border: none; }
   .container_texto_principal {
-    padding-top: 5rem;
+    padding-top: 3rem;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -420,18 +420,17 @@ div.container.contacto {
     cursor: default;
     font-family: "Mister Twisted", sans-serif; }
     .container_texto_principal h1 {
-      padding: 2rem;
-      margin-bottom: 5rem;
-      font-size: 2rem;
+      padding: 3rem 0 3rem 0;
+      font-size: 4vh;
       background-color: #e40b7f;
       color: white;
       letter-spacing: 10px;
       text-shadow: 5px 5px 10px #000000;
       width: 100%; }
     .container_texto_principal p {
-      padding-top: 5rem;
-      line-height: 5rem;
-      padding-bottom: 12rem;
+      padding-top: 1rem;
+      padding-bottom: 2rem;
+      line-height: 3rem;
       width: 75%;
       font-size: 1.8rem;
       text-align: justify; }
@@ -460,12 +459,12 @@ div.container.contacto {
   .contenedor_tarjetas {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr 1.2fr 1.2fr 1.2fr 1.2fr; }
+    grid-template-rows: 0.2fr auto auto auto auto; }
     .contenedor_tarjetas .h1_productos {
       grid-column: 1;
       grid-row: 1;
       padding: 2rem;
-      margin-top: 3rem; }
+      margin-top: 2rem; }
     .contenedor_tarjetas .tarjeta1 {
       grid-column: 1;
       grid-row: 2;
@@ -483,7 +482,7 @@ div.container.contacto {
       grid-row: 5;
       padding: 2rem; }
   .imagen_tarjeta {
-    margin: 2rem;
+    margin: 0rem;
     transition: 0s; }
     .imagen_tarjeta:hover {
       transform: none;
