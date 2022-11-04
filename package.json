@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lucasmaranzano/PreEntrega3Maranzano.git"
+    "url": "git+https://github.com/lucasmaranzano/PFMaranzano.git"
   },
   "keywords": [
     "PreEntrega3Maranzano"
@@ -18,7 +18,7 @@
   "author": "Lucas Maranzano",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lucasmaranzano/PreEntrega3Maranzano/issues"
+    "url": "https://github.com/lucasmaranzano/PFMaranzano/issues"
   },
   "homepage": "https://github.com/lucasmaranzano/PreEntrega3Maranzano#readme",
   "devDependencies": {
