@@ -112,7 +112,7 @@
     }
   }
   .container_texto_principal {
-    padding-top: 5rem;
+    padding-top: 3rem;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -122,9 +122,8 @@
     cursor: default;
     font-family: $fuente_texto_general;
     h1 {
-      padding: 2rem;
-      margin-bottom: 5rem;
-      font-size: 2rem;
+      padding: 3rem 0 3rem 0;
+      font-size: 4vh;
       background-color: $color_base_1;
       color: $color_base_2;
       letter-spacing: 10px;
@@ -132,9 +131,9 @@
       width: 100%;
     }
     p {
-      padding-top: 5rem;
-      line-height: 5rem;
-      padding-bottom: 12rem;
+      padding-top: 1rem;
+      padding-bottom: 2rem;
+      line-height: 3rem;
       width: 75%;
       font-size: 1.8rem;
       text-align: justify;
@@ -169,10 +168,10 @@
   }
 
   .contenedor_tarjetas {
-    @include caja_grid(1fr, 0.2fr 1.2fr 1.2fr 1.2fr 1.2fr);
+    @include caja_grid(1fr, 0.2fr auto auto auto auto);
     .h1_productos {
       @include item_grid(1, 1);
-      margin-top: 3rem;
+      margin-top: 2rem;
     }
     .tarjeta1 {
       @include item_grid(1, 2);
@@ -189,7 +188,7 @@
   }
 
   .imagen_tarjeta {
-    margin: 2rem;
+    margin: 0rem;
     transition: 0s;
     &:hover {
       transform: none;
