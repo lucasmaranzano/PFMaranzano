@@ -1,7 +1,7 @@
 {
-  "name": "preentrega3maranzano",
+  "name": "pfmaranzano",
   "version": "1.0.0",
-  "description": "PreEntrega3Maranzano",
+  "description": "PFMaranzano",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,14 +13,14 @@
     "url": "git+https://github.com/lucasmaranzano/PFMaranzano.git"
   },
   "keywords": [
-    "PreEntrega3Maranzano"
+    "PFMaranzano"
   ],
   "author": "Lucas Maranzano",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lucasmaranzano/PFMaranzano/issues"
   },
-  "homepage": "https://github.com/lucasmaranzano/PreEntrega3Maranzano#readme",
+  "homepage": "https://github.com/lucasmaranzano/PFMaranzano#readme",
   "devDependencies": {
     "node-sass": "^7.0.3",
     "nodemon": "^2.0.20"
